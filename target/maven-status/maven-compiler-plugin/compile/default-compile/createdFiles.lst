@@ -1,0 +1,5 @@
+POJO\WeatherForecastResponse.class
+POJO\WeatherSixteenDays.class
+API\WeatherForecast\App.class
+POJO\Weather.class
+unitTest.class

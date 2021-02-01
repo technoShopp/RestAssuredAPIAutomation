@@ -1,0 +1,745 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-01T06:40:45.568Z",
+        "before": [
+          {
+            "result": {
+              "duration": 78000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "As a choosey surfer wanting to visit \"Manly\" for \"POSITIVE SCENARIO\" - \"ALL CRIRETIA MATCHED - data1\"",
+        "description": "",
+        "id": "to-implement-a-test-to-automate-the-weather-forecast-for-the-top-beaches;as-a-choosey-surfer-wanting-to-visit-\"\u003cbeach\u003e\"-for-\"\u003cscenariotype\u003e\"---\"\u003cscenariodescription\u003e\";;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1141000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I like to surf beach \"Manly\" in Sydney with the \"2095\" and \"AU\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Manly\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"2095\"",
+                  "offset": 48
+                },
+                {
+                  "val": "\"AU\"",
+                  "offset": 59
+                }
+              ],
+              "location": "StepDefinitions.WeatherForecastStepDefinitions.I_like_to_surf_beach_in_Sydney_with_the_and(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13613000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I hit the GET request",
+            "match": {
+              "location": "StepDefinitions.WeatherForecastStepDefinitions.I_hit_the_GET_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 21000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I like to surf on \"2\" and those days should be \"thursday friday\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"thursday friday\"",
+                  "offset": 47
+                }
+              ],
+              "location": "StepDefinitions.WeatherForecastStepDefinitions.I_like_to_surf_on_and_those_days_should_be(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I check for \"temperature\" to be \"20and30\" for \"Manly\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"temperature\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"20and30\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"Manly\"",
+                  "offset": 46
+                }
+              ],
+              "location": "StepDefinitions.WeatherForecastStepDefinitions.I_check_for_to_be(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I check for \"uv\" to be \"3\" for \"Manly\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"uv\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"3\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"Manly\"",
+                  "offset": 31
+                }
+              ],
+              "location": "StepDefinitions.WeatherForecastStepDefinitions.I_check_for_to_be(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@auto"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-01T06:41:00.531Z",
+        "before": [
+          {
+            "result": {
+              "duration": 204000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "As a choosey surfer wanting to visit \"Shelly\" for \"POSITIVE SCENARIO\" - \"ALL CRIRETIA MATCHED - data2\"",
+        "description": "",
+        "id": "to-implement-a-test-to-automate-the-weather-forecast-for-the-top-beaches;as-a-choosey-surfer-wanting-to-visit-\"\u003cbeach\u003e\"-for-\"\u003cscenariotype\u003e\"---\"\u003cscenariodescription\u003e\";;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I like to surf beach \"Shelly\" in Sydney with the \"2261\" and \"AU\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Shelly\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"2261\"",
+                  "offset": 49
+                },
+                {
+                  "val": "\"AU\"",
+                  "offset": 60
+                }
+              ],
+              "location": "StepDefinitions.WeatherForecastStepDefinitions.I_like_to_surf_beach_in_Sydney_with_the_and(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2136000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I hit the GET request",
+            "match": {
+              "location": "StepDefinitions.WeatherForecastStepDefinitions.I_hit_the_GET_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 16000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I like to surf on \"2\" and those days should be \"thursday friday\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"thursday friday\"",
+                  "offset": 47
+                }
+              ],
+              "location": "StepDefinitions.WeatherForecastStepDefinitions.I_like_to_surf_on_and_those_days_should_be(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I check for \"temperature\" to be \"20and30\" for \"Shelly\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"temperature\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"20and30\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"Shelly\"",
+                  "offset": 46
+                }
+              ],
+              "location": "StepDefinitions.WeatherForecastStepDefinitions.I_check_for_to_be(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I check for \"uv\" to be \"3\" for \"Shelly\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"uv\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"3\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"Shelly\"",
+                  "offset": 31
+                }
+              ],
+              "location": "StepDefinitions.WeatherForecastStepDefinitions.I_check_for_to_be(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@auto"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-01T06:41:02.889Z",
+        "before": [
+          {
+            "result": {
+              "duration": 15000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "As a choosey surfer wanting to visit \"Bondi\" for \"POSITIVE SCENARIO\" - \"ALL CRIRETIA MATCHED - data3\"",
+        "description": "",
+        "id": "to-implement-a-test-to-automate-the-weather-forecast-for-the-top-beaches;as-a-choosey-surfer-wanting-to-visit-\"\u003cbeach\u003e\"-for-\"\u003cscenariotype\u003e\"---\"\u003cscenariodescription\u003e\";;4",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I like to surf beach \"Bondi\" in Sydney with the \"2026\" and \"AU\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Bondi\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"2026\"",
+                  "offset": 48
+                },
+                {
+                  "val": "\"AU\"",
+                  "offset": 59
+                }
+              ],
+              "location": "StepDefinitions.WeatherForecastStepDefinitions.I_like_to_surf_beach_in_Sydney_with_the_and(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1453000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I hit the GET request",
+            "match": {
+              "location": "StepDefinitions.WeatherForecastStepDefinitions.I_hit_the_GET_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I like to surf on \"2\" and those days should be \"thursday friday\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"thursday friday\"",
+                  "offset": 47
+                }
+              ],
+              "location": "StepDefinitions.WeatherForecastStepDefinitions.I_like_to_surf_on_and_those_days_should_be(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I check for \"temperature\" to be \"20and30\" for \"Bondi\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"temperature\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"20and30\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"Bondi\"",
+                  "offset": 46
+                }
+              ],
+              "location": "StepDefinitions.WeatherForecastStepDefinitions.I_check_for_to_be(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I check for \"uv\" to be \"3\" for \"Bondi\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"uv\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"3\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"Bondi\"",
+                  "offset": 31
+                }
+              ],
+              "location": "StepDefinitions.WeatherForecastStepDefinitions.I_check_for_to_be(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@auto"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-01T06:41:04.373Z",
+        "before": [
+          {
+            "result": {
+              "duration": 16000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "As a choosey surfer wanting to visit \"Bondi\" for \"NEGATIVE SCENARIO\" - \"GIVEN DATES ARE NOT THURSDAY AND FRIDAY\"",
+        "description": "",
+        "id": "to-implement-a-test-to-automate-the-weather-forecast-for-the-top-beaches;as-a-choosey-surfer-wanting-to-visit-\"\u003cbeach\u003e\"-for-\"\u003cscenariotype\u003e\"---\"\u003cscenariodescription\u003e\";;5",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I like to surf beach \"Bondi\" in Sydney with the \"2026\" and \"AU\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Bondi\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"2026\"",
+                  "offset": 48
+                },
+                {
+                  "val": "\"AU\"",
+                  "offset": 59
+                }
+              ],
+              "location": "StepDefinitions.WeatherForecastStepDefinitions.I_like_to_surf_beach_in_Sydney_with_the_and(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1359000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I hit the GET request",
+            "match": {
+              "location": "StepDefinitions.WeatherForecastStepDefinitions.I_hit_the_GET_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I like to surf on \"2\" and those days should be \"tuesday friday\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"tuesday friday\"",
+                  "offset": 47
+                }
+              ],
+              "location": "StepDefinitions.WeatherForecastStepDefinitions.I_like_to_surf_on_and_those_days_should_be(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I check for \"temperature\" to be \"20and30\" for \"Bondi\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"temperature\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"20and30\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"Bondi\"",
+                  "offset": 46
+                }
+              ],
+              "location": "StepDefinitions.WeatherForecastStepDefinitions.I_check_for_to_be(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I check for \"uv\" to be \"3\" for \"Bondi\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"uv\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"3\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"Bondi\"",
+                  "offset": 31
+                }
+              ],
+              "location": "StepDefinitions.WeatherForecastStepDefinitions.I_check_for_to_be(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@auto"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-01T06:41:05.748Z",
+        "before": [
+          {
+            "result": {
+              "duration": 16000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "As a choosey surfer wanting to visit \"Bondi\" for \"NEGATIVE SCENARIO\" - \"GIVEN DAYS NOT EQUAL TO 2\"",
+        "description": "",
+        "id": "to-implement-a-test-to-automate-the-weather-forecast-for-the-top-beaches;as-a-choosey-surfer-wanting-to-visit-\"\u003cbeach\u003e\"-for-\"\u003cscenariotype\u003e\"---\"\u003cscenariodescription\u003e\";;6",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 15000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I like to surf beach \"Bondi\" in Sydney with the \"2026\" and \"AU\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Bondi\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"2026\"",
+                  "offset": 48
+                },
+                {
+                  "val": "\"AU\"",
+                  "offset": 59
+                }
+              ],
+              "location": "StepDefinitions.WeatherForecastStepDefinitions.I_like_to_surf_beach_in_Sydney_with_the_and(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1469000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I hit the GET request",
+            "match": {
+              "location": "StepDefinitions.WeatherForecastStepDefinitions.I_hit_the_GET_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I like to surf on \"3\" and those days should be \"tuesday friday\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"3\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"tuesday friday\"",
+                  "offset": 47
+                }
+              ],
+              "location": "StepDefinitions.WeatherForecastStepDefinitions.I_like_to_surf_on_and_those_days_should_be(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I check for \"temperature\" to be \"20and30\" for \"Bondi\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"temperature\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"20and30\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"Bondi\"",
+                  "offset": 46
+                }
+              ],
+              "location": "StepDefinitions.WeatherForecastStepDefinitions.I_check_for_to_be(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I check for \"uv\" to be \"3\" for \"Bondi\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"uv\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"3\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"Bondi\"",
+                  "offset": 31
+                }
+              ],
+              "location": "StepDefinitions.WeatherForecastStepDefinitions.I_check_for_to_be(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@auto"
+          }
+        ]
+      }
+    ],
+    "name": "To implement a test to automate the Weather forecast for the Top beaches",
+    "description": "",
+    "id": "to-implement-a-test-to-automate-the-weather-forecast-for-the-top-beaches",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Feature/WeatherForecast.feature",
+    "tags": []
+  }
+]
