@@ -44,7 +44,7 @@ mvn test verify -Dcucumber.options="--tags @auto"
 ## Assumptions
 
 ```
-1.The GET end point URL "https://api.weatherbit.io/v2.0/forecast/daily" gets one postal code at a time and hence the validation has been performed to test one postal code at a time. 
+1.The GET end point URL "https://api.weatherbit.io/v2.0/forecast/daily?postal_code=<postal_code>" gets one postal code at a time and hence the validation has been performed to test one postal code at a time. 
 2.The key and the GET End point URLS are maintained in the global.properties file
 3.The objective is to check the conducive days that the surfer can visit beached based on the three conditions : days, temp and uv
 4.The days should be only thrursday and Friday - First filter
